@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP2 - Gabrielle Pelletier</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/inscription.css" />
+  </head>
+  <body>
+    <!-- ///////////////////////////////////////// Navigation/ MENU -->
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#tableau">Tableau</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#article">Article</a>
+      <a href="#piedpage">Pied de page</a>
+    </nav>
+    <!-- ///////////////////////////////////////// Accueil -->
+    <section id="accueil">
+      <h1>Accueil</h1>
+      <div>
+        <h2>TP2 - Programme TIM</h2>
+        <h3>La première session du programme TIM</h3>
+        <h3>Auteur(e): Gabrielle Pelletier</h3>
+        <h4>1W1 - Mise en page Web</h4>
+        <h5>Technique d'intégration multimédia</h5>
+        <h6>Collège de Maisonneuve | Automne 2022</h6>
+      </div>
+    </section>
+    <!-- ///////////////////////////////////////// Inscription -->
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <!-- Partie d'inscription -->
+      <form action="">
+        <label>
+          Nom:
+          <input
+            class="specialinput"
+            placeholder="Entrez votre nom"
+            type="text"
+            name=""
+            id="txtNom"
+          />
+        </label>
+        <label>
+          Prénom:
+          <input
+            class="specialinput"
+            placeholder="Entrez votre prénom"
+            type="text"
+            name=""
+            id="txtPrenom"
+          />
+        </label>
+        <label>
+          Courriel:
+          <input
+            class="specialinput"
+            placeholder="Entrez votre courriel"
+            type="text"
+            name=""
+            id="txtEmail"
+          />
+        </label>
+        <label>
+          Mot de passe:<input
+            class="specialinput"
+            placeholder="Entrez le mot de passe"
+            type="text"
+            name=""
+            id="txtMotdepasse"
+          />
+          <hr />
+        </label>
+        <!-- Installer des checkbox -->
+        <div class="language">
+          <label type="checkbox" name="" id="html"
+            >HTML <input type="checkbox" name="html"
+          /></label>
+          <label type="checkbox" name="" id="css"
+            >CSS <input type="checkbox" name="css"
+          /></label>
+          <label type="checkbox" name="" id="js"
+            >JAVASCRIPT <input type="checkbox" name="js"
+          /></label>
+          <label type="checkbox" name="" id="php"
+            >PHP <input type="checkbox" name="php"
+          /></label>
+        </div>
+        <div>
+          <hr />
+          <button type="submit">Réinitialiser le formulaire 🗘</button>
+          <button type="submit">Envoyer le formulaire ➜</button>
+        </div>
+      </form>
+    </section>
+    <!-- ///////////////////////////////////////// Tableau -->
+    <section id="tableau">
+      <div>
+        <h1>Tableau: Professeur(e)s du programme</h1>
+        <!-- Présentation des professeurs du programme -->
+        <table>
+          <tr>
+            <td class="engras">Nom: &nbsp;</td>
+            <td class="engras">Prénom: &nbsp;</td>
+            <td class="engras">Spécialité:</td>
+            <td class="engras">info(s) supplémentaire(s):</td>
+          </tr>
+          <tr>
+            <td>Ross &nbsp;</td>
+            <td>David</td>
+            <td>Design &nbsp;</td>
+            <td>prof pivot</td>
+          </tr>
+          <tr>
+            <td>Massé &nbsp;</td>
+            <td>Johanne</td>
+            <td>Programmation</td>
+            <td>prof pivot</td>
+          </tr>
+
+          <tr>
+            <td>Boudjani &nbsp;</td>
+            <td>Ahmed</td>
+            <td>Création de jeu &nbsp;</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Dionne &nbsp;</td>
+            <td>Mathieu</td>
+            <td>Création de jeu &nbsp;</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>St-Pierre &nbsp;</td>
+            <td>Martin</td>
+            <td>Création de jeu &nbsp;</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Pellerin &nbsp;</td>
+            <td>Denis</td>
+            <td>Création vidéo</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Girard &nbsp;</td>
+            <td>Dominic</td>
+            <td>Création vidéo</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Stéphanie &nbsp;</td>
+            <td>St-Pierre</td>
+            <td>Design &nbsp;</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Bertrand &nbsp;</td>
+            <td>Manon</td>
+            <td>Design</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Leblanc &nbsp;</td>
+            <td>Vincent</td>
+            <td>Mise en page web</td>
+            <td>- &nbsp;</td>
+          </tr>
+          <tr>
+            <td>Martin &nbsp;</td>
+            <td>Eddy &nbsp;</td>
+            <td>Programmation &nbsp;</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Semaan &nbsp;</td>
+            <td>Camille</td>
+            <td>Programmation</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Bony &nbsp;</td>
+            <td>Grégory</td>
+            <td>3D &nbsp;</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- ///////////////////////////////////////// Galerie -->
+    <section id="galerie">
+      <h1>Galerie</h1>
+      <!-- Partie des images et une vidéo pour présenter le programme -->
+      <section id="figgalerie">
+        <figure class="image1" id="lesimages">
+          <img src="images/img_classe Grande.jpeg" alt="" />
+          <figcaption>Classe de mise en page web</figcaption>
+        </figure>
+        <figure class="image2" id="lesimages">
+          <img src="images/img_ordi Grande.jpeg" alt="" />
+          <figcaption>Ordinateurs fournis pour les cours</figcaption>
+        </figure>
+        <figure class="image3" id="lesimages">
+          <img src="images/img_clavier Grande.jpeg" alt="" />
+          <figcaption>Utilisation d'ordinateur Mac</figcaption>
+        </figure>
+        <figure class="image4" id="lesimages">
+          <img src="images/img_pc Grande.jpeg" alt="" />
+          <figcaption>Installation des boîtes PC</figcaption>
+        </figure>
+        <figure class="image5" id="lesimages">
+          <img src="images/img_etudiant Grande.jpeg" alt="" />
+          <figcaption>Travaux étudiants</figcaption>
+        </figure>
+        <figure class="image6" id="lesimages">
+          <img src="images/img_code Grande.jpeg" alt="" />
+          <figcaption>Languages de programmation</figcaption>
+        </figure>
+        <figure class="image7" id="lesimages">
+          <img src="images/img_dispo Grande.jpeg" alt="" />
+          <figcaption>Disponibilités des professeurs</figcaption>
+        </figure>
+        <figure class="image8" id="lesimages">
+          <img src="images/img_porte Grande.jpeg" alt="" />
+          <figcaption>Corridor du programme</figcaption>
+        </figure>
+        <!-- La seule vidéo -->
+        <iframe
+          width="460"
+          height="215"
+          src="https://www.youtube-nocookie.com/embed/5u1ZHFyuCaw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="460"
+          height="215"
+          src="https://www.youtube-nocookie.com/embed/0gqiStw_pNw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </section>
+    <!-- ///////////////////////////////////////// Vidéos -->
+    <section id="article">
+      <h1>Article</h1>
+      <!-- Colonne de gauche -->
+      <div class="colonnegauche">
+        <h2>Résumé du programme TIM</h2>
+        <h3>Auteure: Gabrielle Pelletier</h3>
+        <h4>Prix</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam
+          assumenda explicabo consequuntur exercitationem pariatur animi odio
+          eius veritatis fuga! Labore ipsum doloremque laborum esse soluta,
+          magni qui corrupti facere.
+          <figure class="imagegauche">
+            <img src="images/IMG_vitrine1 Grande.png" alt="Vitrine#1" />
+            <figcaption>Vitrine#1</figcaption>
+          </figure>
+        </p>
+        <h4>Nouveautés</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          excepturi corrupti quos dolore, suscipit in possimus minima, iusto hic
+          rem atque quasi modi dolores qui, voluptatum sequi fugit nemo vel.
+          <figure class="imagedroite" id="clearfix">
+            <img src="images/IMG_vitrine2 Grande.png" alt="Vitrine#2" />
+            <figcaption>Vitrine#2</figcaption>
+          </figure>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          enim sit, exercitationem placeat quasi, debitis voluptatum, quaerat
+          nam laboriosam officiis dicta consectetur facere animi porro rerum
+          iusto adipisci repudiandae? Aliquam.
+        </p>
+      </div>
+      <!-- Colonne de droite -->
+      <div class="colonnedroite">
+        <h4>Installation de sites sur Github</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel animi
+          temporibus soluta ab aperiam quaerat dolores ratione a exercitationem
+          rem doloremque necessitatibus nostrum vitae consequuntur, provident
+          fugit amet magni reprehenderit.
+          <figure class="imagegauche">
+            <img src="images/IMG_github Grande.png" alt="Github profile1" />
+            <figcaption>Github profile</figcaption>
+          </figure>
+        </p>
+        <h4>Découvertes sur le CSS</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          enim sit, exercitationem placeat quasi, debitis voluptatum, quaerat
+          nam laboriosam officiis dicta consectetur facere animi porro rerum
+          iusto adipisci repudiandae? Aliquam.
+          <figure class="imagedroite">
+            <img src="images/IMG_github2 Grande.png" alt="Github profile 2" />
+            <figcaption>Github website</figcaption>
+          </figure>
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam
+          assumenda explicabo consequuntur exercitationem pariatur animi odio
+          eius veritatis fuga! Labore ipsum doloremque laborum esse soluta,
+          magni qui corrupti facere.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa
+          cumque nostrum iure accusantium laboriosam, inventore ratione quos
+          quidem ad, illo sunt possimus quia.
+        </p>
+      </div>
+    </section>
+    <!-- ///////////////////////////////////////// Pied de page -->
+    <section id="piedpage">
+      <h1>Pied de page</h1>
+      <!-- Partie des liens -->
+      <div>
+        <a href="https://www.cmaisonneuve.qc.ca/"
+          >Visitez le site du Collège!</a
+        >
+        <hr />
+        Besoin d'assistance ou des questions sur le programme? Pas de problème!
+        <p>
+          <a href="https://www.cmaisonneuve.qc.ca/accueil/pose-ta-question/">
+            Le lien suivant </a
+          >vous mènera sur une page pour poser votre question.
+        </p>
+        <!-- Description et "filler" -->
+        <p>
+          Le Collège de Maisonneuve vous invite à rejoindre la Technique
+          d'Intégration en Multimédia! Ce programme est bien reconnu grâce au
+          contenu de ses cours et grâce à la dynamique des enseignants, qui sont
+          dans les deux cas enrichissants et instructifs!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+          nihil corporis iusto culpa eos ipsam officia laborum, velit rem, rerum
+          labore dolore voluptatum, quod atque iste quasi excepturi nemo quia?
+          Dolor ducimus recusandae eum maiores nam pariatur modi commodi quae.
+          Quas quae esse ducimus quos maiores, sit nam culpa, quibusdam ullam
+          optio ex iusto cumque tenetur illum illo et similique! Adipisci
+          necessitatibus assumenda fugit, eligendi, maiores consequuntur illo
+          eos cum dolorum soluta velit dolor nostrum hic! Reiciendis repudiandae
+          quasi consequatur veniam minima debitis nisi repellendus error, optio
+          iste voluptas vero? Illo ad similique ullam voluptatum perferendis
+          nihil odit accusantium alias est aspernatur incidunt eum neque qui
+          recusandae, nesciunt velit ipsa, eius totam voluptates. Esse quae
+          nostrum quidem sint reiciendis laborum. Recusandae quisquam veniam
+          reiciendis commodi ut aliquam ex necessitatibus quae dolores.
+          Accusamus, qui doloremque quam, illo voluptate laborum mollitia,
+          explicabo itaque recusandae consequatur nam nostrum laudantium! Ad
+          sapiente earum alias.
+        </p>
+        <hr />
+      </div>
+      <div class="reseausociaux">
+        <p>Rejoignez l'équipe sur les réseaux sociaux!</p>
+        <a href="">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff"
+            width="20"
+            height="20"
+          />
+        </a>
+        &nbsp;&nbsp;
+        <a href="">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff"
+            width="20"
+            height="20"
+          />
+        </a>
+        &nbsp;&nbsp;
+        <a href="">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff"
+            width="20"
+            height="20"
+          />
+        </a>
+        &nbsp;&nbsp;
+        <a href="">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff"
+            width="20"
+            height="20"
+          />
+        </a>
+      </div>
+      <p>TOUTES LES IMAGES ET LES TEXTES VIENNENT DE L'AUTEURE DU SITE</p>
+      <p>Avis de confidentialité | Privacy Notice</p>
+      <p>Copyright ©</p>
+    </section>
+  </body>
+</html>
